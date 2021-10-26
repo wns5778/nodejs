@@ -1,9 +1,10 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'root',
+  user     : 'nodejs',
   password : 'Abc123456',
-  database : 'opentutorials'
+  database : 'opentutorials',
+  port : '3308'
 });
  
 connection.connect();
